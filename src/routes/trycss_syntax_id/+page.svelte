@@ -7,8 +7,8 @@
 <p>This paragraph is not affected by the style.</p>
 
 <style>
-	#para1 {
-		text-align: center;
-		color: red;
-	}
+    #para1{
+     color: red;
+     text-align: center;
+    } 
 </style>
