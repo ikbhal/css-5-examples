@@ -32,8 +32,21 @@
 			href="/trycss_syntax_id">
 			The id selector
 		</a>
-		<!-- <a class="jigs-button jigs-bar-item ws-grey jigs-border-top" target="_blank" href="tryit.asp?filename=trycss_syntax_class">The class selector (for all elements)</a>
-		<a class="jigs-button jigs-bar-item ws-grey jigs-border-top" target="_blank" href="tryit.asp?filename=trycss_syntax_element_class">The class selector (for only &lt;p&gt; elements)</a>
+		<a sveltekit:prefetch 
+			class="jigs-button jigs-bar-item ws-grey jigs-border-top" 
+			target="_blank" 
+			href="/trycss_syntax_class">
+			The class selector (for all elements)
+		</a>
+		
+		<a 
+			sveltekit:prefetch
+			class="jigs-button jigs-bar-item ws-grey jigs-border-top" 
+			target="_blank" 
+			href="/trycss_syntax_element_class">
+			The class selector (for only &lt;p&gt; elements)
+		</a>
+		<!--
 		<a class="jigs-button jigs-bar-item ws-grey jigs-border-top" target="_blank" href="tryit.asp?filename=trycss_syntax_element_class2">An HTML element that refer to two classes</a>
 		<a class="jigs-button jigs-bar-item ws-grey jigs-border-top" target="_blank" href="tryit.asp?filename=trycss_syntax_universal">The universal selector</a>
 		<a class="jigs-button jigs-bar-item ws-grey jigs-border-top" target="_blank" href="tryit.asp?filename=trycss_grouping">Grouping selectors</a> --> 
